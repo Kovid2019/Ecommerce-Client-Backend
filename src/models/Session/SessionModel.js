@@ -6,3 +6,7 @@ export const createNewSession = (sessionObj) => {
 export const deleteSession = (filter) => {
   return SessionSchema.findOneAndDelete(filter);
 };
+//get session
+export const getSession = (filter) => {
+  return SessionSchema.findOne(filter);
+};
