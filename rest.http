@@ -1,0 +1,78 @@
+@rootUrl = http://localhost:8001
+
+#API list
+
+### Check server status
+Get {{rootUrl}}
+
+### Auth API
+
+### Post new user
+POST {{rootUrl}}/api/v1/auth/register
+Content-Type: application/json
+
+{
+    "fName" : "Rohitha",
+    "lName" : "Kumar",
+    "email" : "rohithcloudready0@gmail.com",
+    "phone" : "9876543210",
+    
+    "password" : "Roh@123"
+}
+
+### Post to activate user
+POST {{rootUrl}}/api/v1/auth/activate-user 
+Content-Type: application/json
+
+{
+    "sessionId": "6831bea261a75144bfd84cb9",
+    "t" : "164be458-218b-4bb0-8ad7-5aa38f94db51"
+}
+
+
+### Post to Login user
+POST {{rootUrl}}/api/v1/auth/login 
+Content-Type: application/json
+
+{
+    "email": "rohithcloudready2@gmail.com",
+    "password" : "Roh@1234"
+}
+
+
+### Get user's Info
+GET {{rootUrl}}/api/v1/auth/user-info
+Authorization : bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvaGl0aGNsb3VkcmVhZHkyQGdtYWlsLmNvbSIsImlhdCI6MTc0OTA4MTgzOCwiZXhwIjoxNzQ5MDkyNjM4fQ.EEJex59_pnaTZLiDZZu4uVfOzc652NU9EWA9fAu4hg4
+
+
+### Post to forgot password
+POST {{rootUrl}}/api/v1/auth/forgot-password
+Content-Type: application/json
+
+{
+    "email": "rohithcloudready2@gmail.com"
+}
+
+### Post to reset password### Reset password request
+POST {{rootUrl}}/api/v1/auth/reset-password
+Content-Type: application/json
+
+{
+  "email": "rohithcloudready2@gmail.com",
+  "token": "f2ef68ff-25d2-4a30-89e5-68a26f164b40",
+  "formData": {
+    "password": "Roh@1234"
+  }
+}
+
+### Logout user (delete session using access token)
+POST  {{rootUrl}}/api/v1/auth/logout
+Content-Type: application/json
+Authorization: Bearer 27fe2a5d-f3aa-4d37-818e-533d0a2ea2a7
+
+{
+   
+    "email": "rohithcloudready2@gmail.com"
+  
+}
+
