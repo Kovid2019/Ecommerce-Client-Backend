@@ -18,7 +18,7 @@ import recomendationRouter from "./src/routes/recomendationRoutes.js";
 import chatRouter from "./src/routes/chat.js";
 
 const app = express();
-const PORT = process.env.PORT || 8001;
+const PORT = process.env.PORT || 8080;
 
 // 1. Register webhook route FIRST
 app.use("/api/v1/webhook", webhookRouter);
