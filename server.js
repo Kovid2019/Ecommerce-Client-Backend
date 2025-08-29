@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import morgan from "morgan";
-import "dotenv/config";
+// import "dotenv/config";
 import dbConnect from "./src/config/dbconfig.js";
 import { responseClient } from "./src/middleware/responseClient.js";
 import { errorHandler } from "./src/middleware/errorHandler.js";
@@ -11,6 +11,8 @@ import productRouter from "./src/routes/productRoutes.js";
 import categoryRouter from "./src/routes/categoryRoutes.js";
 import webhookRouter from "./src/routes/stripeWebhook.js";
 import stripeRouter from "./src/routes/stripe.js";
+import dotenv from "dotenv";
+dotenv.config();
 
 // import reviewRouter from "./src/routes/reviewRoute.js";
 import recomendationRouter from "./src/routes/recomendationRoutes.js";
