@@ -12,8 +12,7 @@ import categoryRouter from "./src/routes/categoryRoutes.js";
 import webhookRouter from "./src/routes/stripeWebhook.js";
 import stripeRouter from "./src/routes/stripe.js";
 
-
-import reviewRouter from "./src/routes/reviewRoute.js";
+// import reviewRouter from "./src/routes/reviewRoute.js";
 import recomendationRouter from "./src/routes/recomendationRoutes.js";
 
 import chatRouter from "./src/routes/chat.js";
@@ -45,8 +44,6 @@ app.use(morgan("dev"));
 
 app.use(express.json());
 
-
-
 import reviewRouter from "./src/routes/reviewRoute.js";
 import imageRouter from "./src/routes/imageRoute.js";
 
@@ -60,7 +57,6 @@ app.use("/api/v1/payment", stripeRouter);
 app.use("/api/v1/reviews", reviewRouter);
 
 app.use("/api/v1/recomendation", recomendationRouter);
-
 
 app.use("/api/v1/user", chatRouter);
 
