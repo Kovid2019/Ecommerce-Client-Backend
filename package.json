@@ -16,7 +16,6 @@
     "bcryptjs": "^3.0.2",
     "cloudinary": "^2.6.1",
     "cors": "^2.8.5",
-    "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "express-formidable": "^1.2.0",
     "joi": "^17.13.3",

@@ -253,11 +253,6 @@ depd@2.0.0, depd@^2.0.0, depd@~2.0.0:
   resolved "https://registry.yarnpkg.com/depd/-/depd-2.0.0.tgz#b696163cc757560d09cf22cc8fad1571b79e76df"
   integrity sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==
 
-dotenv@^17.2.1:
-  version "17.2.1"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-17.2.1.tgz#6f32e10faf014883515538dc922a0fb8765d9b32"
-  integrity sha512-kQhDYKZecqnM0fCnzI5eIv5L4cAe/iRI+HqMbO/hbRdTAeXDG+M9FjipUxNfbARuEg4iHIbhnhs78BCHNbSxEQ==
-
 dunder-proto@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/dunder-proto/-/dunder-proto-1.0.1.tgz#d7ae667e1dc83482f8b70fd0f6eefc50da30f58a"
@@ -685,9 +680,9 @@ mongodb@~6.18.0:
     mongodb-connection-string-url "^3.0.0"
 
 mongoose@^8.14.3:
-  version "8.17.0"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-8.17.0.tgz#20667986683a871bdfbcfafaa8ae052702e65034"
-  integrity sha512-mxW6TBPHViORfNYOFXCVOnT4d5aRr+CgDxTs1ViYXfuHzNpkelgJQrQa+Lz6hofoEQISnKlXv1L3ZnHyJRkhfA==
+  version "8.18.0"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-8.18.0.tgz#0aae0e3fe2e6689a533a5a8d16e84133ef923ee3"
+  integrity sha512-3TixPihQKBdyaYDeJqRjzgb86KbilEH07JmzV8SoSjgoskNTpa6oTBmDxeoF9p8YnWQoz7shnCyPkSV/48y3yw==
   dependencies:
     bson "^6.10.4"
     kareem "2.6.3"
@@ -749,9 +744,9 @@ negotiator@^1.0.0:
   integrity sha512-8Ofs/AUQh8MaEcrlq5xOX0CQ9ypTF5dl78mjlMNfOK08fzpgTHQRQPBxcPlEtIw0yRpws+Zo/3r+5WRby7u3Gg==
 
 nodemailer@^7.0.3:
-  version "7.0.5"
-  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-7.0.5.tgz#3fa6607cab42401e4bedac9297e0aaa9ff84544b"
-  integrity sha512-nsrh2lO3j4GkLLXoeEksAMgAOqxOv6QumNRVQTJwKH4nuiww6iC2y7GyANs9kRAxCexg3+lTWM3PZ91iLlVjfg==
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-7.0.6.tgz#e850630242e28c64fd666c7f6ca8382baf5a5661"
+  integrity sha512-F44uVzgwo49xboqbFgBGkRaiMgtoBrBEWCVincJPK9+S9Adkzt/wXCLKbf7dxucmxfTI5gHGB+bEmdyzN6QKjw==
 
 nodemon@^3.1.10:
   version "3.1.10"
@@ -811,9 +806,9 @@ once@^1.4.0:
     wrappy "1"
 
 openai@^5.12.2:
-  version "5.12.2"
-  resolved "https://registry.yarnpkg.com/openai/-/openai-5.12.2.tgz#512ab6b80eb8414837436e208f1b951442b97761"
-  integrity sha512-xqzHHQch5Tws5PcKR2xsZGX9xtch+JQFz5zb14dGqlshmmDAFBFEWmeIpf7wVqWV+w7Emj7jRgkNJakyKE0tYQ==
+  version "5.16.0"
+  resolved "https://registry.yarnpkg.com/openai/-/openai-5.16.0.tgz#a302d4ca92954598c79c72dd199c58994708130d"
+  integrity sha512-hoEH8ZNvg1HXjU9mp88L/ZH8O082Z8r6FHCXGiWAzVRrEv443aI57qhch4snu07yQydj+AUAWLenAiBXhu89Tw==
 
 parseurl@^1.3.3:
   version "1.3.3"
@@ -1036,9 +1031,9 @@ string_decoder@^1.1.1:
     safe-buffer "~5.2.0"
 
 stripe@^18.3.0:
-  version "18.4.0"
-  resolved "https://registry.yarnpkg.com/stripe/-/stripe-18.4.0.tgz#1c0d5a7ed168f1ecd0f4a80d1e947e615d3eb841"
-  integrity sha512-LKFeDnDYo4U/YzNgx2Lc9PT9XgKN0JNF1iQwZxgkS4lOw5NunWCnzyH5RhTlD3clIZnf54h7nyMWkS8VXPmtTQ==
+  version "18.5.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-18.5.0.tgz#4da5f51c45d5443f6cbf398392ffe12f94b809d6"
+  integrity sha512-Hp+wFiEQtCB0LlNgcFh5uVyKznpDjzyUZ+CNVEf+I3fhlYvh7rZruIg+jOwzJRCpy0ZTPMjlzm7J2/M2N6d+DA==
   dependencies:
     qs "^6.11.0"
 

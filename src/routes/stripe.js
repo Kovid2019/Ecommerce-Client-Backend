@@ -1,6 +1,6 @@
 import express from "express";
 import Stripe from "stripe";
-import "dotenv/config";
+// import "dotenv/config";
 import { responseClient } from "../middleware/responseClient.js";
 
 const stripeRouter = express.Router();
