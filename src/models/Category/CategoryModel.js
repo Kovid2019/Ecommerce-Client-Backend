@@ -1,4 +1,5 @@
-import categoryCollection from "./categorySchema.js";
+// import categoryCollection from "./categorySchema.js";
+import categoryCollection from "./CategorySchema.js";
 
 export const getCategoryById = async (_id) => {
   return await categoryCollection.findById({ _id });
