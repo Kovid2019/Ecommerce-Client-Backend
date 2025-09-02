@@ -34,7 +34,10 @@ app.use((req, res, next) => {
 //Middlewares
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: [
+      "http://localhost:5173",
+      "Ecommerce-Client-Backend-env.eba-ssm7eq3x.ap-southeast-2.elasticbeanstalk.com",
+    ],
     credentials: true,
   })
 );
