@@ -36,7 +36,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "http://Ecommerce-Client-Backend-env.eba-ssm7eq3x.ap-southeast-2.elasticbeanstalk.com",
+
+      "http://ecommercefrontend-global-bucket.s3-website-ap-southeast-2.amazonaws.com",
     ],
     method: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
