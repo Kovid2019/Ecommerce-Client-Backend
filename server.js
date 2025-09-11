@@ -36,10 +36,9 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-
-      "http://ecommercefrontend-global-bucket.s3-website-ap-southeast-2.amazonaws.com",
+      "http://ecommerce-client-frontend.s3-website-ap-southeast-2.amazonaws.com",
     ],
-    method: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    // method: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
   })
 );
